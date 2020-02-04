@@ -1,16 +1,19 @@
 {
-  "name": "rxjs-websocket",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "rxjs": "^6.5.2",
-    "ws": "^7.1.1"
-  }
+    "name": "rxjs-websocket",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "client": "npx ts-node src/index.ts",
+        "server": "node-ts ./src/socket/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/ws": "^7.2.1",
+        "node-ts": "^5.0.3",
+        "rxjs": "^6.5.4",
+        "ws": "^7.2.1"
+    }
 }

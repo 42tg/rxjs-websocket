@@ -1,7 +1,7 @@
 const WebSocket = require("ws")
 const rxjs = require("rxjs")
 
-const wss = new WebSocket.Server({ port: 8080 })
+const wss = new WebSocket.Server({ port: 8081 })
 
 const interval = rxjs.interval(1000)
 
